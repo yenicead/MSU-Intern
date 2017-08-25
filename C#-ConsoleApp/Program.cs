@@ -12,11 +12,11 @@ namespace MSU_HR
     class Program
     {
         // Oracle bağlantısı için gerekli bilgiler.
-        private static string host = "192.168.2.186";
+        private static string host = "IP_Address";
         private static int port = 1521;
-        private static string service_name = "MSUINSDB";
-        private static string user = "pathica";
-        private static string password = "pathica_dvlp";
+        private static string service_name = "service_name";
+        private static string user = "user";
+        private static string password = "password";
 
         // Oracle bağlantı katarı.
         private static string con_string = "Data Source=(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = "
